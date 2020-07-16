@@ -9,17 +9,21 @@ import EventBinding from './EventBinding/EventBinding';
 import RenderWithState from './RenderWithState/RenderWithState';
 import BaiTapChonXe from './RenderWithState/BaiTapChonXe';
 import RenderWithMap from './RenderWithState/RenderWithMap/RenderWithMap';
+import ExampleGlasses from './RenderWithState/RenderWithMap/ExampleGlasses';
+import DemoProps from './Props/DemoProps';
 
 function App() {
   return (
     <div className="App">
-      {/* <BaiTapLayout /> */}
+      <BaiTapLayout />
       {/* <BaiTapLayout2 /> */}
       {/* <DataBinding /> */}
       {/* <EventBinding /> */}
       {/* <RenderWithState /> */}
       {/* <BaiTapChonXe /> */}
-      <RenderWithMap />
+      {/* <RenderWithMap /> */}
+      {/* <ExampleGlasses /> */}
+      <DemoProps />
     </div>
   );
 }
